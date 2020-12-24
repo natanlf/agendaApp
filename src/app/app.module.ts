@@ -6,6 +6,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './shared/angular-material/angular-material.module';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { InputComponent } from './shared/input/input.component';
+import { AgendaModule } from './agenda/agenda/agenda.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     BrowserModule,
     BrowserAnimationsModule,
     AngularMaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    AgendaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
